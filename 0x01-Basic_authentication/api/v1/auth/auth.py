@@ -7,6 +7,7 @@ Module of Auth views
 from typing import List, TypeVar
 from flask import request
 
+
 class Auth:
     """
     Auth class to manage the API authentication.
@@ -33,7 +34,7 @@ class Auth:
         """
         return None
 
-    def current_user(self, request=None) -> TypeVar('User'):
+    def current_user(self, request=None) -> TypeVar("User"):
         """
         Retrieves the current user based on the request.
         Args:
